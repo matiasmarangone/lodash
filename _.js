@@ -15,7 +15,7 @@ const _ = {
         end = start;
         start = temp;
       }
-      let isInRange = start < number && number < end
+      let isInRange = start <= number && number < end
       return isInRange;
     }
   };
