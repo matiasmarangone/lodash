@@ -17,6 +17,10 @@ const _ = {
       }
       let isInRange = start <= number && number < end
       return isInRange;
+    },
+    words(string){
+      let words = string.split(' ')
+      return words;
     }
   };
   
